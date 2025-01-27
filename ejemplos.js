@@ -66,6 +66,4 @@ app.get('/encoding', (req, res) => {
     res.send('Esta respuesta varía según el encabezado Accept-Encoding');
 });
 ///////////
-app.listen(3000, function()  {
-    console.log('Servidor escuchando en el puerto 3000');
-});
+

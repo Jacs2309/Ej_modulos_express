@@ -65,5 +65,10 @@ app.get('/encoding', (req, res) => {
     res.vary('Accept-Encoding');
     res.send('Esta respuesta varía según el encabezado Accept-Encoding');
 });
+const PORT = 3000;
+app.listen(PORT, () => {
+    console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
+});
+
 ///////////
 
